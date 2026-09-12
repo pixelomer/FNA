@@ -1442,7 +1442,8 @@ namespace Microsoft.Xna.Framework
 					OSVersion.Equals("Linux") ||
 					OSVersion.Equals("FreeBSD") ||
 					OSVersion.Equals("OpenBSD") ||
-					OSVersion.Equals("NetBSD")	)
+					OSVersion.Equals("NetBSD") ||
+					OSVersion.Equals("Nintendo Switch")	)
 				{
 					return AppDomain.CurrentDomain.BaseDirectory;
 				}
