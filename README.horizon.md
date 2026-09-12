@@ -31,3 +31,7 @@ must provide compatible native audio/video services for those APIs.
 Upstream FNA/SDL2-CS/FAudio/Theorafile/FNA3D/MojoShader notices and submodule
 histories remain intact. FNA's license is in licenses/LICENSE, with separate dependency
 licenses in their source trees.
+
+The source-build helpers' recursive source-fetch controls can be run with
+`python3 tests/horizon/test_sources.py`; these tests create only temporary,
+original Git fixtures and do not require a console or game files.
