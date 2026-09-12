@@ -1,0 +1,6 @@
+{
+  "sdl": {
+    "url": "https://github.com/pixelomer/SDL.git",
+    "revision": "77a38d6c62931de77e18649ff3eac5ba44902a03"
+  }
+}

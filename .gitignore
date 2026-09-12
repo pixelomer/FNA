@@ -6,3 +6,7 @@ obj_core/
 *.userprefs
 *.suo
 *.vs
+
+# Horizon source builds
+/artifacts/
+**/__pycache__/
